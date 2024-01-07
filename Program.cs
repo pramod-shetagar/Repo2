@@ -1,7 +1,13 @@
-﻿internal class Program
+﻿
+using System;
+partial class Program
 {
-    private static void Main(string[] args)
+    public static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!!!!!!!!!!");
+        int a, b,c ;
+        a=2; 
+        b=3;
+        c = a + b;
+        Console.WriteLine(c);
     }
 }
